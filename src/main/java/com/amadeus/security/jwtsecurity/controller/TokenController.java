@@ -1,10 +1,9 @@
-package com.techprimers.security.jwtsecurity.controller;
+package com.amadeus.security.jwtsecurity.controller;
 
-import com.techprimers.security.jwtsecurity.Repository.UserRepository;
-import com.techprimers.security.jwtsecurity.model.JwtUser;
-import com.techprimers.security.jwtsecurity.security.JwtGenerator;
+import com.amadeus.security.jwtsecurity.Repository.UserRepository;
+import com.amadeus.security.jwtsecurity.model.JwtUser;
+import com.amadeus.security.jwtsecurity.security.JwtGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.text.ParseException;

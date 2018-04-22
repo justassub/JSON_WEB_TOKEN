@@ -1,4 +1,4 @@
-package com.techprimers.security.jwtsecurity.model;
+package com.amadeus.security.jwtsecurity.model;
 
 import org.hibernate.validator.constraints.NotBlank;
 

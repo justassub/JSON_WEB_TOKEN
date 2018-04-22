@@ -1,13 +1,8 @@
-package com.techprimers.security.jwtsecurity.controller;
+package com.amadeus.security.jwtsecurity.controller;
 
 
-import com.techprimers.security.jwtsecurity.Repository.UserRepository;
-import com.techprimers.security.jwtsecurity.model.JwtUser;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-
-import java.security.Principal;
 
 @RestController
 @RequestMapping("/rest/")

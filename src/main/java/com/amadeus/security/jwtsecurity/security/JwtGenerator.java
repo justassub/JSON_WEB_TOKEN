@@ -1,18 +1,13 @@
-package com.techprimers.security.jwtsecurity.security;
+package com.amadeus.security.jwtsecurity.security;
 
-import com.techprimers.security.jwtsecurity.model.JwtUser;
+import com.amadeus.security.jwtsecurity.model.JwtUser;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.h2.util.DateTimeUtils;
 import org.springframework.stereotype.Component;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
-import java.util.Date;
 
 @Component
 public class JwtGenerator {

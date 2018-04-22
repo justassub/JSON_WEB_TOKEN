@@ -1,8 +1,7 @@
-package com.techprimers.security.jwtsecurity.Repository;
+package com.amadeus.security.jwtsecurity.Repository;
 
-import com.techprimers.security.jwtsecurity.model.JwtUser;
+import com.amadeus.security.jwtsecurity.model.JwtUser;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

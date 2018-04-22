@@ -1,4 +1,4 @@
-package com.techprimers.security.jwtsecurity;
+package com.amadeus.security.jwtsecurity;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

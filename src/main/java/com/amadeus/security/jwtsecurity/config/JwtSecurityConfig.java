@@ -1,9 +1,9 @@
-package com.techprimers.security.jwtsecurity.config;
+package com.amadeus.security.jwtsecurity.config;
 
-import com.techprimers.security.jwtsecurity.security.JwtAuthenticationEntryPoint;
-import com.techprimers.security.jwtsecurity.security.JwtAuthenticationProvider;
-import com.techprimers.security.jwtsecurity.security.JwtAuthenticationTokenFilter;
-import com.techprimers.security.jwtsecurity.security.JwtSuccessHandler;
+import com.amadeus.security.jwtsecurity.security.JwtAuthenticationProvider;
+import com.amadeus.security.jwtsecurity.security.JwtAuthenticationTokenFilter;
+import com.amadeus.security.jwtsecurity.security.JwtSuccessHandler;
+import com.amadeus.security.jwtsecurity.security.JwtAuthenticationEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
